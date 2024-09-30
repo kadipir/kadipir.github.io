@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Welcome to Our Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Mangrove Restaurant</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Delicious Food Awaits You!</h2>
+        <button id="reserveButton">Reserve a Table</button>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3>Pasta Primavera</h3>
+                <p>Fresh vegetables and pasta in a light sauce.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Grilled Salmon</h3>
+                <p>Served with a side of seasonal vegetables.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are committed to providing the best dining experience with fresh ingredients and exceptional service.</p>
+    </section>
+
+    <section id="reservation">
+        <h2>Make a Reservation</h2>
+        <form id="reservationForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="datetime-local" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
